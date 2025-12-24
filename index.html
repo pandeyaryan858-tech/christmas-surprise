@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merry Christmas Motu 🎄</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="notes.html">Notes</a>
+  </header>
+
+  <main>
+    <h1>🎄 Merry Christmas, Motu! 🎄</h1>
+
+    <p class="from">From your Bailatt ❤️</p>
+
+    <button onclick="showSurprise()">Click for Surprise 🎁</button>
+
+    <div id="surprise">
+      💝 You are my favorite gift 😘 <br>
+      Love, Bailatt 💖
+    </div>
+
+    <section class="player">
+      <h2>🎵 Playlist</h2>
+
+      <ul>
+        <li onclick="playSong(0)">High On You</li>
+        <li onclick="playSong(1)">LIKE FAIRY LIGHTS FOR MY HEART</li>
+        <li onclick="playSong(2)">For a Reason</li>
+      </ul>
+
+      <audio id="audio" controls></audio>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
